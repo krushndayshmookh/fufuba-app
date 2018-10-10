@@ -1,0 +1,4 @@
+.pink-gradient {
+    background: rgb(180, 58, 92);
+    background: linear-gradient(45deg, rgba(180, 58, 92, 1) 0%, rgba(201, 25, 130, 1) 47%, rgba(252, 101, 69, 1) 100%);
+}

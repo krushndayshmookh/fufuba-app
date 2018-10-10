@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rutuja</title>
+
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+    <!--Import Google Icon Font-->
+    <link href="css/MaterialIcons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/dayshmookh.layout.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+
+
+<body>
+
+
+    <nav>
+        <div class="nav-wrapper pink">
+
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Login</a></li>
+        <li><a href="home.html">Parent's Home (Child List)</a></li>
+        <li><a href="dochome.html">Doctor's Home (Search and Report)</a></li>
+        <li><a href="child.html">Child Details</a></li>
+        <li><a href="index.html">Logout</a></li>
+    </ul>
+
+
+
+
+
+
+    <div class="card-panel full-width pink" style="margin-top: 0px;">
+        <h4 class="center white-text">Search</h4>
+        <div class="row">
+            <div class=" col s10 push-s1 valign-wrapper">
+                <div class="input-field">
+                    <input id="password" type="text" class="validate white-text">
+                    <label for="password" class="white-text">Parent AADHAR ID</label>
+                </div>
+                <div class="right margined-left-comfortable">
+                    <a href="home.html" class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">arrow_forward</i></a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col s4"><a href="#" class="btn full-width pink-gradient">Add Baby</a></div>
+            <div class="col s4"><a href="#" class="btn full-width pink-gradient">Drugs</a></div>
+            <div class="col s4"><a href="#" class="btn full-width pink-gradient">Reports</a></div>
+        
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/jquery.min.js" ></script>
+
+    <script src="js/materialize.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            M.AutoInit();
+
+            $('.sidenav').sidenav();
+            $('.collapsible').collapsible();
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rutuja</title>
+
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+    <!--Import Google Icon Font-->
+    <link href="css/MaterialIcons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/dayshmookh.layout.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+
+
+<body>
+
+
+    <nav>
+        <div class="nav-wrapper pink">
+            <a href="#!" class="brand-logo">Your babies</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Login</a></li>
+            <li><a href="home.html">Parent's Home (Child List)</a></li>
+            <li><a href="dochome.html">Doctor's Home (Search and Report)</a></li>
+            <li><a href="child.html">Child Details</a></li>
+            <li><a href="index.html">Logout</a></li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col s6">
+                <a href="child.html">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light">
+                            <img src="images/office.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Child 1</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col s6">
+                <a href="child.html">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light">
+                            <img src="images/office.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Child 2</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col s6">
+                <a href="child.html">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light">
+                            <img src="images/office.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Child 3</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+            <i class="large material-icons">add</i>
+        </a>
+        <ul>
+            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+    </div>
+
+
+
+
+    <script src="js/jquery.min.js" ></script>
+
+    <script src="js/materialize.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            M.AutoInit();
+            
+            $('.sidenav').sidenav();
+            
+            $('.fixed-action-btn').floatingActionButton();
+
+
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
